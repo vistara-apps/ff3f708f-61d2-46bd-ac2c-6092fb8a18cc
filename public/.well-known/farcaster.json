@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "AdRemix AI",
+    "subtitle": "Built with Zara",
+    "description": "AdRemix AI is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app",
+    "splashImageUrl": "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app/image.png",
+    "tagline": "AdRemix AI",
+    "screenshotUrls": [
+      "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app/screenshot.png",
+      "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://ff3f708f61d246bdac2c6092fb8a18cc-sh5p-m3umwb96v-vistara.vercel.app/api/webhook"
+  }
+}
