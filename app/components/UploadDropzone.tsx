@@ -43,10 +43,14 @@ export default function UploadDropzone({ onImageUpload }: UploadDropzoneProps) {
     setPreview(null);
   };
 
+  const rootProps = getRootProps();
+  
   return (
     <div className="space-y-4">
       <motion.div
-        {...getRootProps()}
+        onClick={rootProps.onClick}
+        onKeyDown={rootProps.onKeyDown}
+        tabIndex={rootProps.tabIndex}
         className={`relative border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-all
           ${isDragActive 
             ? 'border-purple-400 bg-purple-500/10' 

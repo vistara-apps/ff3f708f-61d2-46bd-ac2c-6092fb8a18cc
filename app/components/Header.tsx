@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ConnectWallet } from '@coinbase/onchainkit/wallet';
-import { Identity } from '@coinbase/onchainkit/identity';
+import { Identity, Avatar, Name, Address } from '@coinbase/onchainkit/identity';
 import { Search, Bell, Settings } from 'lucide-react';
 
 export default function Header() {
@@ -62,7 +62,11 @@ export default function Header() {
 
         {/* Wallet Connection */}
         <ConnectWallet>
-          <Identity />
+          <Identity>
+            <Avatar />
+            <Name />
+            <Address />
+          </Identity>
         </ConnectWallet>
       </div>
     </motion.header>
